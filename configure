@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -d "bin" ] ; then
+	echo "bin/ already created moving on"
+else
+	mkdir bin
+	echo "bin/ has been created"
+fi
